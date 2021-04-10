@@ -19,7 +19,7 @@ body, html {
     border-radius: 15px;
     padding: 10px;
     -webkit-box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69); 
-box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69);
+		box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69);
     
     
 }
@@ -48,9 +48,12 @@ box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69);
 button {
     background-color: #00aaff;
     font-size: 34px;
-    padding: 12px 24px;
+    padding: 12px 30px;
     border-color: #00aaff;
+		border-radius: 15px;
     transition-duration: 0.5s;
+		-webkit-box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69); 
+		box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69);
 }
 button:hover {
     background-color: white;
