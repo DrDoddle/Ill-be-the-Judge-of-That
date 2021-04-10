@@ -3,9 +3,10 @@
 body, html {
     margin: 0;
     background: #333351;
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }
 .titles {
-    font-family: 'Open Sans Condensed', sans-serif;
     margin: 0 auto;
     -moz-transform: translate(0px, 50px);
     -webkit-transform: translate(0px, 50px);
@@ -30,4 +31,27 @@ box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69);
     color: white;
     font-size: 20px;
     padding-top: 60px;
+}
+.btn-container {
+  height: 200px;
+  position: relative;
+}
+
+.btn {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 100%);
+}
+button {
+    background-color: #00aaff;
+    font-size: 34px;
+    padding: 12px 24px;
+    border-color: #00aaff;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: white;
 }
