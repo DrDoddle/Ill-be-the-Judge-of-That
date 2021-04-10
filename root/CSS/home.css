@@ -46,15 +46,16 @@ body, html {
   transform: translate(-50%, 100%);
 }
 button {
-    background-color: #00aaff;
+    background-color: rgba(200, 200, 210, 255);
     font-size: 34px;
     padding: 12px 30px;
-    border-color: #00aaff;
-		border-radius: 15px;
+    border-color: rgba(255, 255, 255, 0);
+		border-radius: 24px;
     transition-duration: 0.5s;
-		-webkit-box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69); 
-		box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69);
+		
 }
 button:hover {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 255);
+    box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69); 
 }
