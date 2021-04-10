@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+body, html {
+    margin: 0;
+    background: #333351;
+}
+.titles {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0 auto;
+    -moz-transform: translate(0px, 50px);
+    -webkit-transform: translate(0px, 50px);
+    -o-transform: translate(0px, 50px);
+    -ms-transform: translate(0px, 50px);
+    transform: translate(0px, 50px);
+    width: 400px;
+    text-align: center;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 10px;
+    -webkit-box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69); 
+box-shadow: 17px 11px 17px 7px rgba(0,0,0,0.69);
+    
+    
+}
+.titles-title {
+    color: #c2ecff;;
+    font-size: 30px;
+}
+.titles-sub {
+    color: white;
+    font-size: 20px;
+    padding-top: 60px;
+}
